@@ -440,8 +440,7 @@ if __name__ == '__main__':
     sys.exit(0 if success else 1)
 
 # ============================================================================
-# Huawei Optical Network Terminal Configuration Decryptor
-# Python version of HuaweiDecryptor.ps1
+# Huawei Configuration Decryptor
 # ============================================================================
 
 import sys
@@ -728,7 +727,7 @@ Examples:
     parser.add_argument(
         'input_file',
         nargs='?',
-        default='TIM_DN8245X6-8X_20260316_120440.conf',
+        default='TIM_DN8245X6-8X.conf',
         help='Input encrypted config file (Base64-encoded)'
     )
     
